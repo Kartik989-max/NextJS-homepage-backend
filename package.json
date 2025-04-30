@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "./dist/app.jss",
+  "main": "./dist/app.js",
  "scripts": {
     "start": "ts-node-dev app.ts",
     "build": "tsc"
