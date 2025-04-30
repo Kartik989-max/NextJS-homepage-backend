@@ -5,8 +5,8 @@
   "type": "module",
   "main": "dist/app.js",
  "scripts": {
-  "start": "node ./dist/app.js",
-    "dev": "ts-node src/app.ts",
+  "start": "node dist/src/app",
+    "dev": "ts-node src/app.js",
     "build": "tsc",
     "deploy": "npm run build && npm start"
 },
