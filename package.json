@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "./src/app.js",
+  "main": "dist/app.js",
  "scripts": {
-  "build": "tsc",
-  "start": "node dist/app.js"
+  "start": "node ./dist/app.js",
+    "dev": "ts-node ./src/app.ts",
+    "build": "tsc",
+    "deploy": "npm run build && npm start"
 },
   "author": "",
   "license": "ISC",
