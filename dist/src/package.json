@@ -2,10 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
+  "type": "commonjs",
   "main": "./dist/app.js",
  "scripts": {
-    "start": "node dist/src/app",
+    "start": "node app",
     "build": "tsc"
 },
   "author": "",
