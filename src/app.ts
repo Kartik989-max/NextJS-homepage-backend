@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors({credentials: true, origin: "*"}));
+app.use(cors({origin:'https://next-js-home-page-frontend.vercel.app',credentials: true}));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
