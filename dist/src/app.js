@@ -13,7 +13,7 @@ const authRoutes_1 = __importDefault(require("./routes/authRoutes"));
 dotenv_1.default.config();
 const app = (0, express_1.default)();
 // Middleware
-app.use((0, cors_1.default)({ credentials: true, origin: "*" }));
+app.use((0, cors_1.default)({ credentials: true, origin: "https://next-js-home-page-frontend.vercel.app" }));
 app.use(express_1.default.urlencoded({ extended: true }));
 app.use(express_1.default.json());
 // Routes
